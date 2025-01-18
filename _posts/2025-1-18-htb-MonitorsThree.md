@@ -26,10 +26,8 @@ The scan revealed two open ports:
 The landing page of the website:
 ![home-page](../assets/img/posts/htb-monitorsthree/home-page.png)
 
-The website contained a login page with password reset functionality:
-![admin-user-reset](../assets/img/posts/htb-monitorsthree/admin-user-reset.png)
+The website contained a login page with password reset functionality. Initial testing revealed:
 
-Initial testing revealed:
 - Password reset worked for 'admin' user
 ![admin-reset](../assets/img/posts/htb-monitorsthree/admin-user-reset.png)
 - Failed for non-existent users (user enumeration vulnerability)
@@ -292,6 +290,9 @@ Found Duplicati running on port 8200 internally. Used port forwarding to access:
 ```bash
 ❯ ssh -L 8200:127.0.0.1:8200 -i marcus.key marcus@monitorsthree.htb
 ```
+
+We can now visit the Duplicati login page:
+![duplicati-login](../assets/img/posts/htb-monitorsthree/duplicati-login.png)
 
 There are a few write-ups on an authentication bypass with Duplicati:
 [duplicati-auth-bypass](https://github.com/duplicati/duplicati/issues/5197)
