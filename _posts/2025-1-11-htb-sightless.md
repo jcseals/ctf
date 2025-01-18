@@ -1,6 +1,7 @@
 ---
 title: "HackTheBox - Sightless"
 date: 2025-01-11
+categories: [Hackthebox, Labs, Writeup]
 tags: [htb, cwe-78, cwe-522, cwe-200, cwe-269, cve-2022-0944]
 image: assets/img/posts/htb-sightless/sightless.png
 ---
