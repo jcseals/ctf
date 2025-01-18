@@ -8,7 +8,7 @@ image: assets/img/posts/htb-monitorsthree/MonitorsThree.png
 
 ## Introduction
 
-This write-up details my approach to solving the HackTheBox machine "MonitorsThree". The box demonstrates several vulnerabilities including SQL injection, exploitation of CVE-2023-28858 in Cacti, and privilege escalation through Duplicati misconfiguration.
+This write-up details my approach to solving the HackTheBox machine "MonitorsThree". The box demonstrates several vulnerabilities including SQL injection, exploitation of CVE-2023-28858 in Cacti, and privilege escalation through a known Duplicati login bypass vulnerability.
 
 ## Initial Reconnaissance
 
