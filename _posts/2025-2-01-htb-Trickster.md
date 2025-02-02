@@ -189,7 +189,10 @@ Listening on port 4444...
 We can see the entry created a new detection watch entry:
 ![exploit-sent](../assets/img/posts/htb-trickster/exploit-sent.png)
 
-Since we have access to the page, the easiest way to trigger the exploit is to click the new monitor that was created, goto the notifications tab, and click the `Send test notification` button. This will cause the jinja template injection from the exploit to be executed and we'll catch the reverse shell that's sent back.
+Since we have access to the page, the easiest way to trigger the exploit is to click the new monitor that was created, goto the notifications tab, and click the `Send test notification` button.
+![test-notification](../assets/img/posts/htb-trickster/test-notification.png)
+
+This will cause the jinja template injection from the exploit to be executed and we'll catch the reverse shell that's sent back.
 
 As soon as the button is clicked to send a test notification, we get our shell:
 ```shell
