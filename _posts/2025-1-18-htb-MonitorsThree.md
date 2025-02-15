@@ -1,8 +1,8 @@
 ---
 title: "HackTheBox - MonitorsThree"
 date: 2025-01-18
-categories: [Hackthebox, Labs, Writeup]
-tags: [sqli, time-based-sqli, blind-sqli, cacti, duplicati, cwe-89, cwe-287, cwe-522, cve-2023-28858]
+categories: [Hackthebox, Labs, Writeup, Linux]
+tags: [linux, sqli, time-based-sqli, blind-sqli, cacti, duplicati, cwe-89, cwe-287, cwe-522, cve-2023-28858]
 image: assets/img/posts/htb-monitorsthree/MonitorsThree.png
 ---
 

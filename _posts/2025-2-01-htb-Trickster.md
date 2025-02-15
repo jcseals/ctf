@@ -1,8 +1,8 @@
 ---
 title: "HackTheBox - Trickster"
 date: 2025-02-01
-categories: [Hackthebox, Labs, Writeup]
-tags: [prestashop, template-injection, cwe-74, cwe-522, cwe-538, cve-2023-47268, cve-2024-34716]
+categories: [Hackthebox, Labs, Writeup, Linux]
+tags: [linux, prestashop, template-injection, cwe-74, cwe-522, cwe-538, cve-2023-47268, cve-2024-34716]
 image: assets/img/posts/htb-trickster/Trickster.png
 ---
 

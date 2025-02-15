@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox - Cicada"
 date: 2025-02-15
-categories: [Hackthebox, Labs, Writeup]
+categories: [Hackthebox, Labs, Writeup, Windows]
 tags: [windows, active-directory, smb, cwe-260, cwe-269, cwe-521, cwe-522]
 image: assets/img/posts/htb-cicada/cicada.png
 ---
